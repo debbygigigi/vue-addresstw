@@ -1,15 +1,36 @@
 {
-  "name": "vue-zipcodetw",
+  "name": "vue-addresstw",
+  "description": "A Vue component for select Taiwan county, city and zipcode.",
   "version": "0.1.0",
-  "private": true,
+  "author": "Debbyji <jasmine820921@gmail.com>",
+  "main": "dist/vue-address.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue-address ./src/components/index.js",
+    "build:doc": "vue-cli-service build ./src/main.js --dest docs --mode development",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jijigo/vue-addresstw.git"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*"
+  ],
+  "keywords": [
+    "Taiwan",
+    "address",
+    "zipcode",
+    "臺灣",
+    "郵遞區號",
+    "地址"
+  ],
   "dependencies": {
     "core-js": "^2.6.5",
+    "twzipcode-data": "^1.6.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {

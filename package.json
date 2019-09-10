@@ -1,7 +1,7 @@
 {
   "name": "vue-addresstw",
   "description": "A Vue component for select Taiwan county, city and zipcode.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Debbyji <jasmine820921@gmail.com>",
   "main": "dist/vue-address.common.js",
   "scripts": {

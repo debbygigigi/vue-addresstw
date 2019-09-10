@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h3>基本</h3>
+    <h3>基本123</h3>
     <Address @change="handleChange"/>
     <p>{{ address }}</p>
 
@@ -35,7 +35,6 @@ export default {
   },
   methods: {
     handleChange (data) {
-      console.log('data', data)
       this.address = data
     }
   }
